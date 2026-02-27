@@ -4,9 +4,11 @@ This project leverages Llama 3.2 vision and Streamlit to create a LaTeX OCR app 
 
 ## Demo Video
 
+
+
 Click below to watch the demo video of the AI Assistant in action:
 
-[Watch the video](LaTeX-OCR.https://github.com/user-attachments/assets/1438d648-eb53-4996-a918-a83715580f42mp4)
+[Watch the video](https://github.com/user-attachments/assets/eb4b67cc-89ed-471d-9384-4b0ec5c782c2)
 
 ## Installation and setup
 
