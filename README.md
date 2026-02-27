@@ -1,26 +1,42 @@
-# Latex_OCR
+# LaTeX-OCR
+
 This project leverages Llama 3.2 vision and Streamlit to create a LaTeX OCR app that converts images of LaTeX equations to LaTeX code.
 
-Demo Video
+## Demo Video
+
 Click below to watch the demo video of the AI Assistant in action:
 
-Watch the video
+[Watch the video](LaTeX-OCR.mp4)
 
-Installation and setup
-Setup Ollama:
+## Installation and setup
 
-On Linux:
+**Setup Ollama**:
 
-curl -fsSL https://ollama.com/install.sh | sh
-# pull llama 3.2 vision model
-ollama run llama3.2-vision 
-On MacOS:
+   *On Linux*:
+   ```bash 
+   curl -fsSL https://ollama.com/install.sh | sh
+   # pull llama 3.2 vision model
+   ollama run llama3.2-vision 
+   ```
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"    # get homebrew
-xcode-select --install
-brew install ollama    # install ollama
-ollama pull llama3.2-vision    # pull llama 3.2 vision model
-ollama run llama3.2-vision 
-Install Dependencies: Ensure you have Python 3.11 or later installed.
+   *On MacOS*:
+   ```bash 
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"    # get homebrew
+   xcode-select --install
+   brew install ollama    # install ollama
+   ollama pull llama3.2-vision    # pull llama 3.2 vision model
+   ollama run llama3.2-vision 
+   ```
 
-pip install streamlit ollama
+
+**Install Dependencies**:
+   Ensure you have Python 3.11 or later installed.
+   ```bash
+   pip install streamlit ollama
+   ```
+
+---
+
+## Contribution
+
+Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
